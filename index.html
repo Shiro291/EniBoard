@@ -3,19 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Phintar Energi Adventure</title>
-    <link href="https://unpkg.com/tailwindcss @latest/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
-        .board {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 1rem;
-  }
         .tile {
-            min-height: 100px;
-            border: 1px solid #ccc;
-            padding: 1rem;
-            text-align: center;
-
+            min-height: 120px;
+            position: relative;
+        }
         .player-indicator {
             position: absolute;
             bottom: 4px;
